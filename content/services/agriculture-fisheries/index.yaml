@@ -1,0 +1,8 @@
+pages:
+  - name: 'Register in the RSBSA'
+    slug: 'register-in-rsbsa'
+    description: 'The Registry System for Basic Sectors in Agriculture (RSBSA) is the Department of Agriculture''s list of farmers, farm workers and fisherfolk.'
+
+  - name: 'Get farm and fishery support'
+    slug: 'get-farm-and-fishery-support'
+    description: 'Naic still has rice fields inland and fishing communities along Manila Bay.'

@@ -1,0 +1,38 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "betternaic-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "betternaic",
+      "database_id": "0586cc0c-323a-450e-bac4-c1ebda9da8f8",
+      "migrations_dir": "migrations"
+    }
+  ],
+
+  // Workers Rate Limiting API (free on all plans). Keys are per client IP.
+  "ratelimits": [
+    { "name": "REPORT_LIMITER", "namespace_id": "4101", "simple": { "limit": 3, "period": 60 } },
+    { "name": "LOGIN_LIMITER", "namespace_id": "4102", "simple": { "limit": 5, "period": 60 } },
+    { "name": "READ_LIMITER", "namespace_id": "4103", "simple": { "limit": 120, "period": 60 } }
+  ],
+
+  // Daily cleanup: drop old reports and IP hashes (see the privacy page).
+  "triggers": { "crons": ["17 19 * * *"] },
+
+  "vars": {
+    // Production only. .dev.vars adds http://localhost:5173 for wrangler dev.
+    "ALLOWED_ORIGINS": "https://betternaic.vercel.app",
+    "TURNSTILE_HOSTNAMES": "betternaic.vercel.app",
+    "SESSION_HOURS": "8"
+  }
+
+  // Secrets (wrangler secret put): TURNSTILE_SECRET, SESSION_SECRET, IP_SALT,
+  // and optionally DISCORD_WEBHOOK_URL. Local values go in .dev.vars.
+}

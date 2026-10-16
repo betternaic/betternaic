@@ -1,0 +1,86 @@
+# Heritage sites and landmarks. Photos are resized copies from Wikimedia
+# Commons; keep the credit fields when you swap a photo (CC BY-SA requires
+# attribution and a link to the license).
+
+places:
+  - slug: 'casa-hacienda-de-naic'
+    name: 'Casa Hacienda de Naic'
+    kind: 'Historic site'
+    location: 'Naic Elementary School, Poblacion'
+    description: 'The Dominican estate house where Andres Bonifacio and his allies signed the Naic Military Agreement in April 1897, and where Emilio Aguinaldo later organized his cabinet. It now houses Naic Elementary School and carries a historical marker.'
+    photo: '/images/naic/casa-hacienda.webp'
+    credit: { author: 'Ramiltibayan', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Casa_Hacienda_de_Naic.JPG' }
+
+  - slug: 'naic-church'
+    name: 'Diocesan Shrine of the Immaculate Conception (Naic Church)'
+    kind: 'Church and heritage'
+    location: 'Poblacion'
+    description: 'The parish church of the town patroness. Naic celebrates its fiesta every December 8, the Feast of the Immaculate Conception.'
+    photo: '/images/naic/naic-church.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Naic_Church,_Cavite,_Jun_2024_(2).jpg' }
+
+  - slug: 'town-plaza'
+    name: 'Naic Town Plaza'
+    kind: 'Public space'
+    location: 'Poblacion'
+    description: 'The town square in the poblacion.'
+    photo: '/images/naic/town-plaza.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Naic_Town_Plaza,_Cavite,_Jun_2024.jpg' }
+
+  - slug: 'rizal-monument'
+    name: 'Jose Rizal Monument'
+    kind: 'Monument'
+    location: 'Poblacion'
+    description: 'A monument to Jose Rizal, the national hero.'
+    photo: '/images/naic/rizal-monument.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Jose_Rizal_Monument,_Naic,_Cavite,_Jun_2024.jpg' }
+
+  - slug: 'two-head-carabao'
+    name: 'Two-Head Carabao Statue'
+    kind: 'Landmark'
+    location: 'Naic'
+    description: 'A statue of a two-headed carabao.'
+    photo: '/images/naic/carabao-statue.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Two_Head_Carabao_Statue,_Naic,_Cavite,_Jun_2024.jpg' }
+
+  - slug: 'labac-pawikan'
+    name: 'Labac coast and pawikan releases'
+    kind: 'Coast and environment'
+    location: 'Barangay Labac'
+    description: 'The Labac shoreline on Manila Bay hosts community sea turtle (pawikan) conservation, including hatchling releases.'
+    photo: ''
+    credit: null
+
+  - slug: 'public-market'
+    name: 'Naic Public Market'
+    kind: 'Market'
+    location: 'Poblacion'
+    description: 'The main public market and a trading hub for Naic and the upland towns around it.'
+    photo: '/images/naic/public-market.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Naic_Public_Market,_Cavite,_Jun_2024.jpg' }
+
+  - slug: 'grand-central-terminal'
+    name: 'Naic Grand Central Terminal'
+    kind: 'Transport hub'
+    location: 'Naic'
+    description: "The town's main terminal for buses and jeepneys."
+    photo: '/images/naic/grand-terminal.webp'
+    credit: { author: 'Ralff Nestor Nacor', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Naic_Grand_Central_Terminal,_Cavite,_Jun_2024.jpg' }
+
+heroPhoto:
+  src: '/images/naic/aerial.webp'
+  alt: 'Aerial view of Naic, Cavite'
+  credit: { author: 'Patrickroque01', license: 'CC BY-SA 4.0', url: 'https://commons.wikimedia.org/wiki/File:Naic_from_air_(Cavite;_04-29-2024).jpg' }
+
+markerPhoto:
+  src: '/images/naic/casa-hacienda-marker.webp'
+  alt: 'Historical marker of Casa Hacienda de Naic'
+  credit: { author: 'Ramon FVelasquez', license: 'CC BY-SA 3.0', url: 'https://commons.wikimedia.org/wiki/File:Casa_Hacienda_de_Naic_historical_marker.jpg' }
+
+gettingThere:
+  - mode: 'Bus from PITX or Manila'
+    text: 'Buses bound for Naic and Ternate leave from PITX and run along Antero Soriano Highway through Kawit, Noveleta, Rosario and Tanza, which ends in Naic.'
+  - mode: 'Jeepney and baby bus'
+    text: 'Jeepneys and baby buses link Naic with Tanza, Trece Martires, Indang and Maragondon. Tricycles cover the barangays.'
+  - mode: 'Private vehicle'
+    text: 'Naic is about 44 km from Manila. Take CAVITEX and continue on Antero Soriano Highway, or come down Aguinaldo Highway and cut across through Trece Martires.'

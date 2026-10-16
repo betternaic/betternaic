@@ -1,0 +1,12 @@
+pages:
+  - name: 'Get a building permit'
+    slug: 'get-a-building-permit'
+    description: 'You need a building permit before you build, add to, renovate or demolish a structure in Naic.'
+
+  - name: 'Get an occupancy permit'
+    slug: 'get-an-occupancy-permit'
+    description: 'A finished building needs a Certificate of Occupancy before anyone may use or live in it.'
+
+  - name: 'Get a zoning or locational clearance'
+    slug: 'get-a-zoning-or-locational-clearance'
+    description: 'A zoning or locational clearance confirms that what you plan to build or run fits the land use allowed in that area under Naic''s zoning ordinance.'

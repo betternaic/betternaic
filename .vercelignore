@@ -1,0 +1,9 @@
+# Only what the Vite build needs is uploaded.
+node_modules
+dist
+worker
+generated
+docs
+.wrangler
+.env.local
+*.sync-conflict-*

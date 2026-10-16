@@ -1,0 +1,12 @@
+pages:
+  - name: 'Get a barangay clearance'
+    slug: 'get-a-barangay-clearance'
+    description: 'A barangay clearance shows that you live in the barangay and have no pending case there.'
+
+  - name: 'Get a police clearance'
+    slug: 'get-a-police-clearance'
+    description: 'The national police clearance is applied for online, then completed at a police station of your choice where your photo and fingerprints are taken.'
+
+  - name: 'Get a National ID'
+    slug: 'get-a-national-id'
+    description: 'The Philippine Identification System (PhilSys), created by RA 11055, gives every Filipino and resident alien a free National ID.'

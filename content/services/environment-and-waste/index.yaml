@@ -1,0 +1,8 @@
+pages:
+  - name: 'Segregate your waste'
+    slug: 'segregate-your-waste'
+    description: 'The Ecological Solid Waste Management Act (RA 9003) requires every household to separate its garbage at home.'
+
+  - name: 'Report illegal dumping or burning'
+    slug: 'report-illegal-dumping-or-burning'
+    description: 'Dumping garbage in canals, vacant lots or the sea, and burning garbage, are not allowed under RA 9003.'

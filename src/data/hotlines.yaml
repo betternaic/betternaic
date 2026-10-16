@@ -1,0 +1,62 @@
+# Emergency and help lines. Only numbers confirmed from an official or
+# reputable source go here. Local Naic numbers (MDRRMO, PNP, BFP, municipal
+# hall) are left out until someone confirms them from the office itself:
+# a wrong emergency number is worse than none.
+
+national:
+  - name: 'Emergency 911'
+    number: '911'
+    tel: '911'
+    note: 'Police, fire, and medical emergencies, nationwide, 24/7.'
+  - name: 'Philippine Red Cross'
+    number: '143'
+    tel: '143'
+    note: 'Ambulance, rescue, and blood services.'
+  - name: 'NCMH Crisis Hotline'
+    number: '1553'
+    tel: '1553'
+    note: 'Mental health crisis line, toll-free from Luzon landlines, 24/7. Globe/TM 0917-899-8727, Smart/TNT 0908-639-2672.'
+    source: 'https://newsinfo.inquirer.net/1327373/ncmh-reports-spike-in-suicide-related-calls-amid-covid-19-pandemic'
+  - name: "8888 Citizens' Complaint Hotline"
+    number: '8888'
+    tel: '8888'
+    note: 'Complaints about government services and red tape (Office of the President).'
+
+# Facilities in Naic. Addresses from public directories; confirm before going.
+facilities:
+  - name: 'Naic Medicare Hospital'
+    kind: 'Public hospital'
+    address: 'Antero Soriano Highway, Ibayo Silangan'
+    source: 'https://www.clinicfinderph.com/clinic/naic-medicare-hospital'
+  - name: 'Naic Rural Health Unit (Municipal Health Office)'
+    kind: 'Public health center'
+    address: 'Capt. C. Nazareno St., Poblacion'
+    source: 'https://www.clinicfinderph.com/locations/cavite/naic'
+  - name: 'Naic Fire Station (BFP)'
+    kind: 'Fire station'
+    address: 'Naic'
+    source: 'https://commons.wikimedia.org/wiki/File:Naic_Fire_Station,_Cavite,_Jun_2024.jpg'
+
+preparedness:
+  before:
+    - 'Know if your barangay is coastal or low-lying, and where its evacuation center is.'
+    - 'Agree on a meeting place and an out-of-town contact with your household.'
+    - 'Keep a go-bag ready from June to November, the rainy season.'
+    - 'Follow PAGASA advisories and your barangay officials for local warnings.'
+  during:
+    - 'Evacuate early when told to. Do not wait for the water to rise.'
+    - 'Never wade, swim, or drive through floodwater.'
+    - 'Switch off the main power before water reaches outlets.'
+    - 'Keep roads clear for responders.'
+  after:
+    - 'Go home only when authorities say it is safe.'
+    - 'Treat floodwater as contaminated. Boil or disinfect drinking water.'
+    - 'If you waded in floodwater, watch for leptospirosis symptoms (fever, muscle pain) and see a doctor early.'
+    - 'Report damage and missing persons to your barangay.'
+  goBag:
+    - 'Drinking water and ready-to-eat food for 3 days'
+    - 'Flashlight, spare batteries, and a radio'
+    - 'First aid kit and a week of your regular medicines'
+    - 'Copies of IDs and documents in a waterproof bag'
+    - 'Power bank, whistle, and a change of clothes'
+    - 'Cash in small bills'

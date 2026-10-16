@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BetterNaic OG Image</title>
+    <!--
+      Source for public/og-image.png (1200x630). Re-render after editing:
+      chrome --headless=new --window-size=1200,630 --screenshot=og-image.png og-image-template.html
+    -->
+    <style>
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        font-family: 'Inter', 'Segoe UI', Roboto, Arial, sans-serif;
+        background:
+          radial-gradient(circle at 85% 15%, rgba(242, 201, 29, 0.22), transparent 45%),
+          linear-gradient(135deg, #0032a0 0%, #00226e 100%);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+      }
+      .wrap {
+        display: flex;
+        align-items: center;
+        gap: 56px;
+        padding: 0 80px;
+      }
+      img {
+        width: 300px;
+        height: 300px;
+        filter: drop-shadow(0 12px 32px rgba(0, 0, 0, 0.35));
+      }
+      h1 {
+        font-size: 92px;
+        line-height: 1;
+        margin: 0 0 18px;
+        letter-spacing: -2px;
+      }
+      h1 span {
+        color: #f2c91d;
+      }
+      .sub {
+        font-size: 34px;
+        margin: 0 0 26px;
+        opacity: 0.95;
+      }
+      .topics {
+        font-size: 24px;
+        opacity: 0.85;
+        margin: 0 0 30px;
+      }
+      .badge {
+        display: inline-block;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.14);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <img src="favicon.svg" alt="" />
+      <div>
+        <h1>Better<span>Naic</span></h1>
+        <p class="sub">Community portal for Naic, Cavite</p>
+        <p class="topics">Services · Officials · Barangays · Hotlines · Transparency</p>
+        <div class="badge">Volunteer-run · Not an official LGU website</div>
+      </div>
+    </div>
+  </body>
+</html>

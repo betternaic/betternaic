@@ -1,0 +1,8 @@
+# Local Worker settings for `wrangler dev`. Copy to .dev.vars (git-ignored).
+# Cloudflare's documented always-pass Turnstile test secret:
+TURNSTILE_SECRET="1x0000000000000000000000000000000AA"
+# Any long random strings work locally.
+SESSION_SECRET="change-me-to-64-random-hex-characters"
+IP_SALT="change-me-too"
+ALLOWED_ORIGINS="http://localhost:5173"
+TURNSTILE_HOSTNAMES="localhost"

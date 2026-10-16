@@ -1,0 +1,12 @@
+pages:
+  - name: 'Pay real property tax'
+    slug: 'pay-real-property-tax'
+    description: 'Owners of land, buildings and machinery pay real property tax (amilyar) every year to the Municipal Treasurer.'
+
+  - name: 'Get a tax declaration or property certification'
+    slug: 'get-a-tax-declaration-or-property-certification'
+    description: 'The Municipal Assessor keeps the tax declarations for land and buildings in Naic.'
+
+  - name: 'Get a community tax certificate (cedula)'
+    slug: 'get-a-community-tax-certificate-cedula'
+    description: 'The community tax certificate, or cedula, is often asked for in permits, notarized documents and job applications.'

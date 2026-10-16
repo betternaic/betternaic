@@ -1,0 +1,258 @@
+{
+  "site": {
+    "tagline": "Community portal para sa Naic, Cavite",
+    "disclaimer": "Gawa ng mga volunteer. Hindi ito official website ng Munisipyo ng Naic.",
+    "disclaimerShort": "Gawa ng volunteers. Hindi official na site ng LGU."
+  },
+  "nav": {
+    "skip": "Lumaktaw sa content",
+    "call911": "Emergency: 911",
+    "services": "Mga Serbisyo",
+    "government": "Gobyerno",
+    "officials": "Mga Opisyal",
+    "offices": "Mga Opisina",
+    "barangays": "Mga Barangay",
+    "statistics": "Statistics",
+    "transparency": "Transparency",
+    "discover": "Tuklasin ang Naic",
+    "tourism": "Mga pasyalan",
+    "history": "Kasaysayan",
+    "emergency": "Emergency",
+    "search": "Maghanap",
+    "report": "Mag-report",
+    "largeText": "Malaking text",
+    "textSize": "Laki ng text",
+    "language": "Wika",
+    "open": "Buksan ang menu",
+    "close": "Isara ang menu",
+    "aboutPortal": "Tungkol sa BetterNaic",
+    "accessibility": "Accessibility",
+    "privacy": "Privacy",
+    "terms": "Terms of use",
+    "sitemap": "Sitemap",
+    "govph": "GOV.PH",
+    "cavite": "Probinsya ng Cavite",
+    "foi": "Freedom of Information",
+    "fdp": "Full Disclosure Policy Portal",
+    "bettergov": "BetterGov.ph"
+  },
+  "hero": {
+    "title": "Mga serbisyo at impormasyon para sa Naic, Cavite",
+    "subtitle": "Ano ang dadalhin, saan magpunta, at sino ang tatawagin. Sa simpleng salita, may pinagkunan.",
+    "searchLabel": "Maghanap ng serbisyo",
+    "searchPlaceholder": "hal. cedula, PWD ID, building permit",
+    "searchButton": "Hanapin",
+    "popularTitle": "Popular",
+    "photoCaption": "Ang Naic mula sa itaas.",
+    "popular": {
+      "get-a-copy-of-a-birth-marriage-or-death-record": "PSA birth certificate",
+      "renew-your-business-permit": "Pag-renew ng business permit",
+      "get-a-senior-citizen-id": "Senior citizen ID",
+      "get-a-barangay-clearance": "Barangay clearance",
+      "get-first-time-jobseeker-documents-for-free": "Libreng dokumento para sa first-time jobseekers"
+    }
+  },
+  "facts": {
+    "title": "Ang Naic sa isang tingin",
+    "population": "mga residente (2024 census)",
+    "barangays": "barangay",
+    "area": "lawak ng lupa",
+    "class": "Income class",
+    "source": "Pinagkunan: PSA 2024 Census, PhilAtlas.",
+    "more": "Statistics"
+  },
+  "services": {
+    "title": "Mga serbisyo at requirements",
+    "description": "Step-by-step na gabay sa mga karaniwang transaksyon sa Naic: ano ang dadalhin, saan pupunta, at ano ang aasahan.",
+    "viewAll": "Tingnan lahat",
+    "pageTitle": "Mga serbisyo at requirements",
+    "pageSubtitle": "Ano ang dadalhin, saan pupunta, at ano ang aasahan sa mga karaniwang transaksyon sa Naic.",
+    "none": "Sinusulat pa ang mga gabay para dito.",
+    "cat": {
+      "civil-registration": "Civil Registration",
+      "business": "Business Permits",
+      "property-and-taxes": "Property at Buwis",
+      "building-and-construction": "Building at Construction",
+      "social-welfare": "Social Welfare",
+      "health-services": "Kalusugan",
+      "agriculture-fisheries": "Agrikultura at Pangisdaan",
+      "disaster-preparedness": "Disaster Preparedness",
+      "jobs-and-livelihood": "Trabaho at Kabuhayan",
+      "environment-and-waste": "Kapaligiran at Basura",
+      "education": "Edukasyon",
+      "clearances-and-ids": "Clearances at IDs"
+    }
+  },
+  "emergency": {
+    "stripTitle": "Kapag may emergency, tumawag sa 911",
+    "stripText": "Pulis, bumbero at medical help, kahit saan sa bansa, 24/7.",
+    "label911": "Emergency",
+    "all": "Lahat ng hotlines at paghahanda",
+    "title": "Emergency hotlines",
+    "subtitle": "Sa anumang emergency, tumawag sa 911. Konektado ito sa pulis, bumbero at medical help kahit saan sa Pilipinas.",
+    "localTitle": "Nasaan ang mga numero ng Naic?",
+    "localText": "Ipo-post lang namin ang local numbers ng MDRRMO, pulis, bumbero at Munisipyo kapag na-confirm na mismo sa opisina. Mas delikado ang maling emergency number kaysa wala. Habang wala pa, gamitin ang 911.",
+    "confirm": "May alam kang official na numero? Ipadala kasama ang pinagkunan.",
+    "facilities": "Mga pasilidad pangkalusugan at pangkaligtasan sa Naic",
+    "facilitiesNote": "Galing sa public directories ang mga address. I-confirm bago pumunta, at tumawag sa 911 kapag emergency.",
+    "prepTitle": "Baha at bagyo: ano ang gagawin",
+    "before": "Bago",
+    "during": "Habang nangyayari",
+    "after": "Pagkatapos",
+    "goBag": "Laman ng go-bag",
+    "fullGuide": "Buong gabay sa paghahanda"
+  },
+  "announcements": {
+    "title": "Mga anunsyo at abiso",
+    "empty": "Walang abiso sa ngayon.",
+    "failed": "Hindi ma-load ang mga anunsyo ngayon.",
+    "official": "Para sa class suspension, panahon at road advisories, sundan ang official channels ng Munisipyo ng Naic at PAGASA.",
+    "source": "Official na pinagkunan",
+    "kind": {
+      "advisory": "Abiso",
+      "news": "Balita",
+      "event": "Event"
+    }
+  },
+  "leaders": {
+    "title": "Mga lokal na opisyal",
+    "subtitle": "Nahalal noong Mayo 2025 para sa termino 2025–2028.",
+    "all": "Lahat ng opisyal, kasama ang 8 konsehal",
+    "sb": "Sangguniang Bayan",
+    "sbText": "8 konsehal, kasama ang presidente ng ABC at SK Federation.",
+    "seeCouncil": "Tingnan ang konseho"
+  },
+  "discover": {
+    "title": "Tungkol sa Naic",
+    "subtitle": "Bayang first-class sa tabi ng Manila Bay, kung saan pinirmahan ni Andres Bonifacio ang Naic Military Agreement noong 1897.",
+    "all": "Mga pasyalan",
+    "history": "Maikling kasaysayan ng Naic"
+  },
+  "cta": {
+    "title": "May nakita kang mali o luma na?",
+    "text": "Sabihin sa amin ang correction, sirang kalsada o kanal, o problema sa isang serbisyo. Binabasa ng mga volunteer ang bawat report.",
+    "button": "Mag-report"
+  },
+  "footer": {
+    "partOf": "Bahagi ng BetterGov.ph LGU Directory",
+    "about": "Portal na gawa ng mga volunteer na nag-iipon ng pampublikong impormasyon tungkol sa Naic, Cavite. Hindi ito konektado sa Munisipyo ng Naic. Para sa official na transaksyon, pumunta sa Munisipyo o sa opisinang may hawak nito.",
+    "portal": "BetterNaic",
+    "naic": "Naic",
+    "national": "Mga link ng gobyerno",
+    "license": "Malayang gamitin ang content basta may credit. May sariling Wikimedia Commons license ang mga litrato.",
+    "contribute": "Tumulong sa GitHub",
+    "directory": "LGU Directory"
+  },
+  "gov": {
+    "title": "Gobyerno ng Naic",
+    "subtitle": "Ang Naic ay first-class na munisipyo sa Cavite, pinamumunuan ng nahalal na Mayor, Vice Mayor at Sangguniang Bayan."
+  },
+  "officials": {
+    "title": "Mga nahalal na opisyal",
+    "subtitle": "Nahalal noong Mayo 12, 2025, hanggang Hunyo 30, 2028.",
+    "executive": "Ehekutibo",
+    "sb": "Sangguniang Bayan (konseho ng bayan)",
+    "sbText": "Walong konsehal na nahalal at-large, hindi naka-ayos ayon sa boto, at dalawang ex-officio. Ang Vice Mayor ang namumuno.",
+    "congress": "Sa Kongreso",
+    "contact": "Para makausap ang isang opisyal, pumunta sa Office of the Mayor o sa Sangguniang Bayan sa Munisipyo ng Naic, Poblacion."
+  },
+  "offices": {
+    "title": "Mga opisina ng munisipyo",
+    "subtitle": "Karamihan ng opisina ay nasa Munisipyo ng Naic sa Poblacion, bukas tuwing weekdays sa oras ng gobyerno. I-confirm ang schedule bago pumunta.",
+    "guides": "Mga kaugnay na gabay",
+    "more": "Iba pa",
+    "note": "Hindi muna nakalista ang mga hepe ng opisina at direct numbers hangga't hindi na-confirm sa munisipyo.",
+    "help": "Tulungan kaming i-confirm"
+  },
+  "barangays": {
+    "title": "Ang 30 barangay ng Naic",
+    "subtitle": "Populasyon mula sa PSA 2015 at 2020 census. Wala pang mapagkakatiwalaang pinagkunan ng 2024 census kada barangay.",
+    "flood": "Bumaha nang malala sa ilang coastal at mababang barangay noong 2018.",
+    "floodLink": "Tingnan ang listahan"
+  },
+  "stats": {
+    "title": "Ang Naic sa mga numero",
+    "subtitle": "Mahahalagang numero tungkol sa munisipyo, bawat isa may pinagkunan.",
+    "growth": "Paglaki ng populasyon",
+    "largest": "Pinakamalalaking barangay (2020)",
+    "profile": "Profile ng munisipyo"
+  },
+  "transparency": {
+    "title": "Transparency",
+    "subtitle": "Pera ng bayan, record ng bayan. Dito naka-publish ang budget, gastos at audit ng Naic, at kung paano humingi ng wala rito.",
+    "where": "Saan makikita ang mga dokumento",
+    "foiTitle": "Humingi ng pampublikong dokumento",
+    "helpTitle": "Tumulong sa page na ito",
+    "send": "Magpadala ng dokumento o link"
+  },
+  "tourism": {
+    "title": "Mga pasyalan sa Naic",
+    "subtitle": "Bayang tabing-dagat sa Manila Bay kung saan nangyari ang isang mahalagang yugto ng Rebolusyon noong 1897.",
+    "getting": "Paano pumunta sa Naic",
+    "history": "Gusto mong malaman ang kuwento sa likod ng mga lugar na ito?",
+    "historyLink": "Basahin ang maikling kasaysayan ng Naic"
+  },
+  "history": {
+    "title": "Maikling kasaysayan ng Naic",
+    "subtitle": "Mula sa isang visita ng Maragondon sa tabing-ilog hanggang sa bayang may halos 237,000 katao.",
+    "name": "Saan galing ang pangalan",
+    "timeline": "Timeline"
+  },
+  "report": {
+    "title": "Mag-report ng concern",
+    "subtitle": "Magpadala ng correction sa BetterNaic, o sabihin ang problema sa barangay mo. Binabasa ng mga volunteer ang bawat report at itinuturo sa opisinang may kakayahang umaksyon.",
+    "notEmergency": "Hindi ito emergency line.",
+    "call911": "Para sa sunog, krimen, o medical emergency, tumawag sa 911.",
+    "category": "Tungkol saan ito?",
+    "choose": "Pumili",
+    "barangay": "Barangay",
+    "notSpecific": "Hindi para sa isang barangay lang",
+    "message": "Ilarawan ang concern",
+    "messageHint": "Saan mismo, ano ang nangyari, at kailan pa. Huwag isama ang private info ng ibang tao.",
+    "aboutPage": "Tungkol sa page:",
+    "optional": "Detalye mo (optional)",
+    "optionalHint": "Kung gusto mong ma-follow up ng volunteer. Moderators lang ang makakakita nito.",
+    "name": "Pangalan",
+    "contact": "Email o mobile number",
+    "send": "Ipadala ang report",
+    "sending": "Ipinapadala...",
+    "incomplete": "Pumili ng category at barangay, at ilarawan ang concern sa hindi bababa sa 20 characters.",
+    "verify": "Tapusin muna ang verification check.",
+    "failed": "May nagka-problema. Subukan ulit.",
+    "thanks": "Salamat! Naipadala na ang report mo.",
+    "next": "Babasahin ito ng isang volunteer. Hindi LGU ang BetterNaic, kaya kung urgent, kontakin din ang barangay mo o ang opisinang may hawak.",
+    "home": "Bumalik sa home page",
+    "safeTitle": "Paano namin pinoprotektahan ang form",
+    "safe1": "Tinitiyak ng Cloudflare Turnstile na tao ka, kadalasan walang puzzle.",
+    "safe2": "Ilang report lang kada minuto at kada araw ang puwede sa bawat koneksyon.",
+    "safe3": "Napupunta ang mga report sa private database na moderators lang ang nakakabukas.",
+    "privacy": "Detalye ng privacy",
+    "directTitle": "Kailangan ng mabilis na aksyon?",
+    "directText": "Pumunta sa barangay hall mo, o sa opisinang may hawak ng problema. Tingnan ang listahan ng mga opisina.",
+    "offices": "Mga opisina ng munisipyo",
+    "cat": {
+      "correction": "Mali o luma na ang info sa BetterNaic",
+      "road": "Kalsada, kanal o ilaw sa kalye",
+      "garbage": "Basura o illegal dumping",
+      "flood": "Baha",
+      "service": "Problema sa serbisyo ng munisipyo",
+      "suggestion": "Suggestion para sa BetterNaic",
+      "other": "Iba pa"
+    }
+  },
+  "doc": {
+    "outdated": "May mali o luma na ba rito?",
+    "tellUs": "Sabihin sa amin"
+  },
+  "search": {
+    "title": "Maghanap sa BetterNaic",
+    "label": "Search terms",
+    "results": "resulta",
+    "none": "Walang tugma. Subukan ang mas maikling salita, o tingnan ang"
+  },
+  "notFound": {
+    "title": "Hindi namin mahanap ang page na iyan",
+    "text": "Baka nailipat na. Subukang maghanap, o magsimula sa home page.",
+    "home": "Home"
+  }
+}

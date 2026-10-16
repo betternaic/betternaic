@@ -1,0 +1,16 @@
+pages:
+  - name: 'Get a senior citizen ID'
+    slug: 'get-a-senior-citizen-id'
+    description: 'Residents aged 60 and above can get a senior citizen ID from the Office of the Senior Citizens Affairs (OSCA).'
+
+  - name: 'Get a PWD ID'
+    slug: 'get-a-pwd-id'
+    description: 'Persons with disability who live in Naic can get a PWD ID through the Persons with Disability Affairs Office (PDAO) or the MSWDO.'
+
+  - name: 'Get a solo parent ID'
+    slug: 'get-a-solo-parent-id'
+    description: 'Solo parents who live in Naic can get a solo parent ID from the MSWDO under the Expanded Solo Parents Welfare Act (RA 11861).'
+
+  - name: 'Ask for crisis assistance (AICS)'
+    slug: 'ask-for-crisis-assistance-aics'
+    description: 'Assistance to Individuals in Crisis Situations (AICS) helps with medical, burial, transportation, education or food needs during an emergency.'

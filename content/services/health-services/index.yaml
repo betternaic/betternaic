@@ -1,0 +1,16 @@
+pages:
+  - name: 'See a doctor at the Rural Health Unit'
+    slug: 'see-a-doctor-at-the-rural-health-unit'
+    description: 'The Naic Rural Health Unit (Municipal Health Office) and the barangay health stations offer free primary care: consultations, maternal care, immunization, TB treatment, family planning, and health programs.'
+
+  - name: 'Get your child vaccinated'
+    slug: 'get-your-child-vaccinated'
+    description: 'Routine childhood vaccines under the Department of Health''s National Immunization Program are free at the Rural Health Unit and barangay health stations.'
+
+  - name: 'Register for PhilHealth YAKAP'
+    slug: 'register-for-philhealth-yakap'
+    description: 'YAKAP (Yaman ng Kalusugan Program) is PhilHealth''s primary care benefit, formerly called Konsulta.'
+
+  - name: 'Get a health certificate or sanitary permit'
+    slug: 'get-a-health-certificate-or-sanitary-permit'
+    description: 'Under the Code on Sanitation (PD 856), food handlers and workers in food and similar businesses need a health certificate, and the business itself needs a sanitary permit.'

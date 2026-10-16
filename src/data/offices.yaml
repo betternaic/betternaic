@@ -1,0 +1,120 @@
+# Municipal offices and what each one handles. Office functions follow the
+# Local Government Code (RA 7160) and the national programs each office runs.
+# Office heads and direct lines are not listed until confirmed with the LGU.
+
+offices:
+  - name: 'Office of the Municipal Mayor'
+    short: 'OMM'
+    handles:
+      - "Mayor's clearances and certifications"
+      - 'Executive orders and municipal programs'
+      - 'Requests for assistance addressed to the Mayor'
+    services: []
+
+  - name: 'Sangguniang Bayan (Office of the Vice Mayor)'
+    short: 'SB'
+    handles:
+      - 'Municipal ordinances and resolutions'
+      - 'Approval of the annual budget'
+      - 'Public hearings and committee referrals'
+    services: []
+
+  - name: 'Municipal Civil Registrar'
+    short: 'MCR'
+    handles:
+      - 'Registration of births, marriages and deaths in Naic'
+      - 'Certified copies of local civil registry records'
+      - 'Marriage license applications'
+      - 'Late registration and corrections (RA 9048 / RA 10172 petitions)'
+    services: ['/services/civil-registration']
+
+  - name: 'Business Permits and Licensing Office'
+    short: 'BPLO'
+    handles:
+      - "New business permits (Mayor's permit)"
+      - 'Annual renewal, due within the first 20 days of January'
+      - 'Business closure and retirement'
+    services: ['/services/business']
+
+  - name: 'Municipal Treasurer'
+    short: 'MTO'
+    handles:
+      - 'Payment of business tax, fees and real property tax'
+      - 'Community tax certificates (cedula)'
+      - 'Official receipts for municipal transactions'
+    services: ['/services/business', '/services/property-and-taxes']
+
+  - name: 'Municipal Assessor'
+    short: 'MASSO'
+    handles:
+      - 'Tax declarations for land and buildings'
+      - 'Property assessment and certifications (no improvement, landholding)'
+    services: ['/services/property-and-taxes']
+
+  - name: 'Municipal Engineering Office and Office of the Building Official'
+    short: 'MEO / OBO'
+    handles:
+      - 'Building, electrical, plumbing, occupancy and demolition permits'
+      - 'Public works, roads and drainage'
+    services: ['/services/building-and-construction']
+
+  - name: 'Municipal Planning and Development Office'
+    short: 'MPDO'
+    handles:
+      - 'Zoning and locational clearances'
+      - 'Comprehensive land use plan and development projects'
+    services: ['/services/building-and-construction']
+
+  - name: 'Municipal Social Welfare and Development Office'
+    short: 'MSWDO'
+    handles:
+      - 'Senior citizen, PWD and solo parent IDs'
+      - 'Assistance to Individuals in Crisis Situations (AICS)'
+      - 'Day care, family and youth programs'
+    services: ['/services/social-welfare']
+
+  - name: 'Municipal Health Office / Rural Health Unit'
+    short: 'MHO'
+    handles:
+      - 'Consultations, immunization and maternal care'
+      - 'TB-DOTS, family planning and disease surveillance'
+      - 'Sanitary permits and health certificates'
+    services: ['/services/health-services']
+
+  - name: 'Municipal Agriculture Office'
+    short: 'MAO'
+    handles:
+      - 'RSBSA registration for farmers and fisherfolk'
+      - 'Seeds, fertilizer and fishery support programs'
+      - 'Crop and livestock technical help'
+    services: ['/services/agriculture-fisheries']
+
+  - name: 'Municipal Disaster Risk Reduction and Management Office'
+    short: 'MDRRMO'
+    handles:
+      - 'Rescue and emergency response'
+      - 'Evacuation centers and early warning'
+      - 'Disaster preparedness trainings'
+    services: ['/services/disaster-preparedness', '/emergency']
+
+  - name: 'Public Employment Service Office'
+    short: 'PESO'
+    handles:
+      - 'Job matching, referrals and job fairs'
+      - 'Special Program for Employment of Students (SPES)'
+      - 'Livelihood and skills training referrals'
+    services: ['/services/jobs-and-livelihood']
+
+  - name: 'Municipal Environment and Natural Resources Office'
+    short: 'MENRO'
+    handles:
+      - 'Garbage collection and waste segregation (RA 9003)'
+      - 'Coastal and environmental protection'
+    services: ['/services/environment-and-waste']
+
+  - name: 'Municipal Tourism Office'
+    short: 'Tourism'
+    handles:
+      - 'Tourism information and heritage sites'
+      - 'Fiesta and cultural events'
+    services: ['/tourism']

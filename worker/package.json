@@ -1,0 +1,16 @@
+{
+  "name": "betternaic-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node --experimental-strip-types --no-warnings --test \"test/**/*.test.ts\"",
+    "db:migrate": "wrangler d1 migrations apply betternaic --remote",
+    "db:migrate:local": "wrangler d1 migrations apply betternaic --local"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "wrangler": "^4.151.1"
+  }
+}

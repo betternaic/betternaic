@@ -1,0 +1,112 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+  --font-serif: Georgia, 'Times New Roman', serif;
+  /* BetterNaic brand (logo): blue #0032a0, sun gold #f2c91d, tile #f1f2f2 */
+
+  --color-primary-50: #e8edf8;
+  --color-primary-100: #ccd7ef;
+  --color-primary-200: #99afdf;
+  --color-primary-300: #6687cf;
+  --color-primary-400: #335fbf;
+  --color-primary-500: #0032a0;
+  --color-primary-600: #002b8a;
+  --color-primary-700: #002372;
+  --color-primary-800: #001b59;
+  --color-primary-900: #00113a;
+
+  --color-accent-50: #fefaea;
+  --color-accent-100: #fdf3c9;
+  --color-accent-200: #fae793;
+  --color-accent-300: #f6da5d;
+  --color-accent-400: #f2c91d;
+  --color-accent-500: #d9b10c;
+  --color-accent-600: #a98a09;
+  --color-accent-700: #7a6307;
+  --color-accent-800: #4c3e04;
+  --color-accent-900: #261f02;
+
+  --color-success-50: #e6f7ef;
+  --color-success-100: #ccefdf;
+  --color-success-200: #99dfbf;
+  --color-success-700: #006939;
+  --color-success-800: #004626;
+
+  --color-error-50: #fceaea;
+  --color-error-100: #f9d5d5;
+  --color-error-200: #f3abab;
+  --color-error-500: #e12e2e;
+  --color-error-600: #b42525;
+  --color-error-700: #871c1c;
+  --color-error-800: #5a1212;
+
+  /* Neutrals chosen for WCAG AA on white: 500 = 4.8:1, 600 = 7.6:1,
+     700 = 10.3:1. 300/400 are for decoration only, never for text. */
+  --color-gray-50: #f8f9fa;
+  --color-gray-100: #f1f3f5;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+}
+
+@theme inline {
+  --font-sans: var(--font-kapwa-sans);
+  --font-mono: var(--font-kapwa-mono);
+}
+
+/* 17px body text by default (rem-based sizes scale with it). "Large text"
+   mode, for seniors and anyone on a small phone, raises it to 21px and adds
+   line spacing. Browser zoom keeps working on top of both. */
+html {
+  font-size: 106.25%;
+}
+html.large-text {
+  font-size: 131.25%;
+}
+body {
+  line-height: 1.6;
+}
+html.large-text body {
+  line-height: 1.75;
+}
+html.large-text main a:not([class*='rounded']) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Skip link and focus ring: keyboard users first. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+}
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  @apply bg-white text-primary-700 px-4 py-2 rounded-md shadow-lg font-semibold;
+}
+/* Two-tone ring (gold inside, near-black outside) stays at least 3:1 on both
+   white and blue backgrounds. The transparent outline keeps Windows
+   high-contrast mode working. */
+:focus-visible {
+  outline: 3px solid transparent;
+  box-shadow:
+    0 0 0 3px var(--color-accent-400),
+    0 0 0 6px #0b0c0c;
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

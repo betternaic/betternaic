@@ -1,0 +1,8 @@
+pages:
+  - name: 'Prepare for floods and typhoons'
+    slug: 'prepare-for-floods-and-typhoons'
+    description: 'Naic sits on Manila Bay, and much of it is low-lying.'
+
+  - name: 'Know the flood-affected barangays'
+    slug: 'know-the-flood-affected-barangays'
+    description: 'After the July 2018 floods, twelve Naic barangays were placed under a state of calamity.'

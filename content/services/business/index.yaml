@@ -1,0 +1,12 @@
+pages:
+  - name: 'Apply for a new business permit'
+    slug: 'apply-for-a-new-business-permit'
+    description: 'Every business operating in Naic needs a Mayor''s permit from the Business Permits and Licensing Office (BPLO).'
+
+  - name: 'Renew your business permit'
+    slug: 'renew-your-business-permit'
+    description: 'Business permits expire at the end of the year.'
+
+  - name: 'Close or retire a business'
+    slug: 'close-or-retire-a-business'
+    description: 'If you stop operating, retire the business with the BPLO so you are not billed taxes and penalties for the following years.'

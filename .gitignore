@@ -1,0 +1,35 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.sw?
+
+# .env, .env.development and .env.production hold only public VITE_ values
+# and are committed. Put private overrides in .env.local (ignored).
+.env.local
+.env.*.local
+
+# Vercel / Wrangler local state. worker/.dev.vars holds local Worker secrets.
+.vercel
+.wrangler
+worker/.dev.vars
+
+# Syncthing
+*.sync-conflict-*
+~syncthing~*
+.stfolder/
+.stversions/
+

@@ -1,0 +1,12 @@
+pages:
+  - name: 'Find a job through PESO'
+    slug: 'find-a-job-through-peso'
+    description: 'The Public Employment Service Office (PESO) of Naic helps jobseekers find work for free.'
+
+  - name: 'Get first-time jobseeker documents for free'
+    slug: 'get-first-time-jobseeker-documents-for-free'
+    description: 'Under the First Time Jobseekers Assistance Act (RA 11261), you do not pay fees for the government documents you need to apply for your first job.'
+
+  - name: 'Apply for SPES'
+    slug: 'apply-for-spes'
+    description: 'The Special Program for Employment of Students (SPES) gives students and out-of-school youth paid work during school breaks.'

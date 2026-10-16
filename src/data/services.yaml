@@ -1,0 +1,64 @@
+# Service categories shown on the home page and /services.
+# Each category's pages live in content/services/{slug}/index.yaml plus one
+# Markdown file per page. `icon` must be a name registered in src/lib/icons.ts.
+
+categories:
+  - category: 'Civil Registration'
+    slug: 'civil-registration'
+    description: 'Birth, marriage and death records, marriage licenses, late registration and corrections.'
+    icon: 'FileText'
+
+  - category: 'Business Permits'
+    slug: 'business'
+    description: "New business permits, January renewals, and closing a business in Naic."
+    icon: 'Building2'
+
+  - category: 'Property and Taxes'
+    slug: 'property-and-taxes'
+    description: 'Real property tax, tax declarations, and community tax certificates (cedula).'
+    icon: 'Landmark'
+
+  - category: 'Building and Construction'
+    slug: 'building-and-construction'
+    description: 'Building, occupancy and demolition permits, and zoning clearances.'
+    icon: 'HardHat'
+
+  - category: 'Social Welfare'
+    slug: 'social-welfare'
+    description: 'Senior citizen, PWD and solo parent IDs, and crisis assistance.'
+    icon: 'HeartHandshake'
+
+  - category: 'Health'
+    slug: 'health-services'
+    description: 'Rural Health Unit consultations, vaccines, PhilHealth YAKAP, and health certificates.'
+    icon: 'Stethoscope'
+
+  - category: 'Agriculture and Fisheries'
+    slug: 'agriculture-fisheries'
+    description: 'RSBSA registration and support for Naic farmers and fisherfolk.'
+    icon: 'Wheat'
+
+  - category: 'Disaster Preparedness'
+    slug: 'disaster-preparedness'
+    description: 'Flood and typhoon readiness for a coastal, low-lying town.'
+    icon: 'ShieldAlert'
+
+  - category: 'Jobs and Livelihood'
+    slug: 'jobs-and-livelihood'
+    description: 'PESO job matching, free documents for first-time jobseekers, and SPES.'
+    icon: 'Briefcase'
+
+  - category: 'Environment and Waste'
+    slug: 'environment-and-waste'
+    description: 'Waste segregation and reporting illegal dumping or burning.'
+    icon: 'Recycle'
+
+  - category: 'Education'
+    slug: 'education'
+    description: 'Schools in Naic and where to look for scholarships.'
+    icon: 'GraduationCap'
+
+  - category: 'Clearances and IDs'
+    slug: 'clearances-and-ids'
+    description: 'Barangay and police clearances, and the National ID.'
+    icon: 'IdCard'

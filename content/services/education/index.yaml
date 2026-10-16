@@ -1,0 +1,8 @@
+pages:
+  - name: 'Find schools in Naic'
+    slug: 'find-schools-in-naic'
+    description: 'Public basic education in Naic is handled by DepEd through three school district offices: Naic I, Naic II and Naic III.'
+
+  - name: 'Look for scholarships'
+    slug: 'look-for-scholarships'
+    description: 'Most scholarships for Naic students come from national agencies, plus programs the municipality or the Sangguniang Kabataan may open each year.'

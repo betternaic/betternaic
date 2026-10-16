@@ -1,0 +1,150 @@
+# Municipality of Naic, Cavite: profile, officials, barangays and history.
+# Every figure here has a source. When you update a value, update its source
+# too. Do not add names or numbers you cannot point to a public source for.
+
+profile:
+  name: 'Naic'
+  officialName: 'Municipality of Naic'
+  localName: 'Bayan ng Naic'
+  province: 'Cavite'
+  region: 'Region IV-A (CALABARZON)'
+  district: "Cavite's 8th congressional district"
+  incomeClass: '1st class municipality'
+  barangays: 30
+  landAreaKm2: 75.81
+  zipCode: '4110'
+  psgc: '0402115000'
+  coordinates: { lat: 14.3167, lng: 120.7667 }
+  fiesta: 'December 8 (Feast of the Immaculate Conception)'
+  coast: 'Manila Bay'
+  neighbors:
+    - { name: 'Tanza', direction: 'East' }
+    - { name: 'Trece Martires City', direction: 'East' }
+    - { name: 'Indang', direction: 'South' }
+    - { name: 'Maragondon', direction: 'West' }
+    - { name: 'Ternate', direction: 'West' }
+  distances:
+    - { to: 'Imus (provincial capital)', km: 24.14 }
+    - { to: 'Manila', km: 44.3 }
+
+# PSA census counts. 2024 is the POPCEN declared official by the President.
+population:
+  - { year: 1990, count: 51629 }
+  - { year: 2000, count: 72683 }
+  - { year: 2010, count: 88144 }
+  - { year: 2015, count: 111454 }
+  - { year: 2020, count: 160987 }
+  - { year: 2024, count: 236978 }
+populationSource:
+  label: 'Philippine Statistics Authority (via Wikidata Q62799)'
+  url: 'https://psa.gov.ph/content/2024-census-population-popcen-population-counts-declared-official-president'
+
+# Elected May 12, 2025; term runs to June 30, 2028.
+officials:
+  term: '2025–2028'
+  source:
+    label: 'GMA News Eleksyon 2025 results, Rappler, and the Naic article on Wikipedia'
+    url: 'https://en.wikipedia.org/wiki/Naic#Elected_officials'
+  executive:
+    - position: 'Municipal Mayor'
+      name: 'Rommel Anthony V. Magbitang'
+      party: 'UNIDO'
+    - position: 'Vice Mayor'
+      name: 'Jacinta Maria D. Remulla'
+      party: 'NPC'
+      note: 'Presiding officer of the Sangguniang Bayan'
+  councilors:
+    - { name: 'Florencio B. Nazareno', party: 'NPC' }
+    - { name: 'Ryan O. Flores', party: 'UNIDO' }
+    - { name: 'Rodrigo A. Castillo', party: 'UNIDO' }
+    - { name: 'Bonifacio M. Atienza Jr.', party: 'NPC' }
+    - { name: 'Glennon I. Pegollo', party: 'NPC' }
+    - { name: 'Jerry C. Barrera', party: 'NPC' }
+    - { name: 'Arnel G. Milay', party: 'NPC' }
+    - { name: 'Raymond P. Senia', party: 'NPC' }
+  exOfficio:
+    - { position: 'ABC (Liga ng mga Barangay) President', name: 'Roger N. Camilo' }
+    - { position: 'SK Federation President', name: 'Darlaine Mae A. Benesen' }
+  congress:
+    position: "Representative, Cavite's 8th District"
+    name: 'Aniela Bianca Tolentino'
+
+# PSA 2015 and 2020 census by barangay. Per-barangay 2024 counts are not
+# published in a source we could verify yet.
+barangaysSource:
+  label: 'PSA 2015 and 2020 Census via PhilAtlas'
+  url: 'https://www.philatlas.com/luzon/r04a/cavite/naic.html'
+barangays:
+  - { name: 'Bagong Karsada', pop2015: 1916, pop2020: 2067 }
+  - { name: 'Balsahan', pop2015: 381, pop2020: 422 }
+  - { name: 'Bancaan', pop2015: 4255, pop2020: 4836 }
+  - { name: 'Bucana Malaki', pop2015: 1374, pop2020: 1356 }
+  - { name: 'Bucana Sasahan', pop2015: 5511, pop2020: 5960 }
+  - { name: 'Calubcob', pop2015: 1499, pop2020: 7391 }
+  - { name: 'Capt. C. Nazareno', pop2015: 801, pop2020: 543, poblacion: true }
+  - { name: 'Gomez-Zamora', pop2015: 774, pop2020: 615, poblacion: true, alias: 'Gombalza' }
+  - { name: 'Halang', pop2015: 4953, pop2020: 24195 }
+  - { name: 'Humbac', pop2015: 1018, pop2020: 745 }
+  - { name: 'Ibayo Estacion', pop2015: 4866, pop2020: 5057 }
+  - { name: 'Ibayo Silangan', pop2015: 12627, pop2020: 10541 }
+  - { name: 'Kanluran', pop2015: 1930, pop2020: 1763, alias: 'Kanluran Rizal' }
+  - { name: 'Labac', pop2015: 6167, pop2020: 6690 }
+  - { name: 'Latoria', pop2015: 2242, pop2020: 2186 }
+  - { name: 'Mabolo', pop2015: 3833, pop2020: 4447 }
+  - { name: 'Makina', pop2015: 833, pop2020: 727 }
+  - { name: 'Malainen Bago', pop2015: 4603, pop2020: 9410 }
+  - { name: 'Malainen Luma', pop2015: 3036, pop2020: 2921 }
+  - { name: 'Molino', pop2015: 1832, pop2020: 2215 }
+  - { name: 'Munting Mapino', pop2015: 5822, pop2020: 5443 }
+  - { name: 'Muzon', pop2015: 2422, pop2020: 2161 }
+  - { name: 'Palangue 1', pop2015: 4136, pop2020: 4409 }
+  - { name: 'Palangue 2 & 3', pop2015: 3745, pop2020: 3700 }
+  - { name: 'Sabang', pop2015: 9898, pop2020: 21938 }
+  - { name: 'San Roque', pop2015: 4680, pop2020: 4568 }
+  - { name: 'Santulan', pop2015: 708, pop2020: 527 }
+  - { name: 'Sapa', pop2015: 1206, pop2020: 1412 }
+  - { name: 'Timalan Balsahan', pop2015: 9754, pop2020: 18179 }
+  - { name: 'Timalan Concepcion', pop2015: 4632, pop2020: 4563 }
+
+# Barangays placed under a state of calamity after the July 2018 floods.
+# Background for preparedness only, not a current hazard map.
+floodAffected2018:
+  - Labac
+  - Mabolo
+  - Bancaan
+  - Bagong Karsada
+  - Bucana Malaki
+  - Sapa
+  - Bucana Sasahan
+  - Munting Mapino
+  - Timalan Balsahan
+  - Timalan Concepcion
+  - Balsahan
+  - Latoria
+floodSource:
+  label: 'ABS-CBN News, July 22, 2018'
+  url: 'https://abs-cbn.com/news/07/22/18/more-areas-placed-under-state-of-calamity-due-to-floods'
+
+history:
+  source:
+    label: 'Naic article on Wikipedia, and the historical marker at Naic Elementary School'
+    url: 'https://en.wikipedia.org/wiki/Naic#History'
+  events:
+    - year: '1627'
+      text: 'Jesuit missionaries reach Maragondon, whose territory then covered present-day Naic, Ternate and Magallanes.'
+    - year: '1758'
+      text: 'The Jesuits found a community and visita on the west bank of the river, in what is now Barangay Muzon, still under Maragondon.'
+    - year: '1791'
+      text: 'The community becomes a town of its own, according to local histories.'
+    - year: '1798'
+      text: 'The town center moves to the east bank of the river, the present poblacion.'
+    - year: '1865'
+      text: 'The parish passes to the Dominicans, who later build the Casa Hacienda de Naic to run the friar estate. The building is now Naic Elementary School.'
+    - year: '1897'
+      text: 'Casa Hacienda de Naic is the site of the Naic Military Agreement (Acta de Naic) signed by Andres Bonifacio and his allies in April, and of the cabinet Emilio Aguinaldo formed after the Tejeros Convention. The Battle of Timalan is fought in May.'
+    - year: '1903'
+      text: 'Ternate is merged into Naic under Act No. 947, until it is separated again in 1917.'
+    - year: '1942'
+      text: 'The Taparan guerrilla unit is founded in Naic in February and delays the Japanese advance while residents flee to Maragondon.'
+    - year: '2024'
+      text: 'The census counts 236,978 residents, up from 160,987 in 2020, as new subdivisions in Halang, Calubcob, Sabang and Timalan fill up.'

@@ -1,0 +1,16 @@
+pages:
+  - name: 'Get a copy of a birth, marriage or death record'
+    slug: 'get-a-copy-of-a-birth-marriage-or-death-record'
+    description: 'Most offices ask for a PSA copy printed on security paper.'
+
+  - name: 'Register a birth or a late registration'
+    slug: 'register-a-birth-or-a-late-registration'
+    description: 'A birth must be registered with the civil registrar of the place where the child was born within 30 days.'
+
+  - name: 'Apply for a marriage license'
+    slug: 'apply-for-a-marriage-license'
+    description: 'Couples apply together at the civil registrar of the city or municipality where either of them lives.'
+
+  - name: 'Correct a clerical error or change a first name'
+    slug: 'correct-a-clerical-error-or-change-a-first-name'
+    description: 'Some mistakes in a birth, marriage or death record can be fixed at the civil registrar without going to court.'
