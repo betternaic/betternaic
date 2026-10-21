@@ -12,7 +12,7 @@ export const SITE = {
   keywords: env.VITE_SITE_KEYWORDS || '',
   ogImage: env.VITE_OG_IMAGE_URL || '/og-image.jpg',
   facebook: env.VITE_FACEBOOK_URL || '',
-  github: env.VITE_GITHUB_URL || 'https://github.com/riecodes/betternaic',
+  github: env.VITE_GITHUB_URL || 'https://github.com/betternaic/betternaic',
   apiUrl: (env.VITE_API_URL || '').replace(/\/$/, ''),
   turnstileSiteKey: env.VITE_TURNSTILE_SITE_KEY || '',
   directory: 'https://lgu.bettergov.ph',
