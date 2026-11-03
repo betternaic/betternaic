@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.3.0 (2026-11-03)
+
+Budget pages, adapted from the BetterGov.ph Transparency Portal (MIT).
+
+- `/budget`: every FY 2027 project for Naic and the Cavite 2nd DEO (which
+  serves Cavite's 8th District) in the NEP and House Bill 10858, with status,
+  search, filters in the URL, a "names Naic" filter and a CSV download.
+- `/budget/enacted`: the DEO's whole budget each year since 2020, and every
+  program in the 2020–2026 GAAs whose name names Naic.
+- `/budget/projects/...`: one project's amount in each version with a link to
+  the PDF page, and a link to report what is on the ground.
+- `/budget/about`: every query sent to the API, with counts and links to check.
+- Transparency page links to it; it is under Government in the menu.
+
 ## 0.2.0 (2026-10-17)
 
 Readability and accessibility pass (Laws of UX/UI, WCAG 2.2 AA).

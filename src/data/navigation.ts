@@ -17,6 +17,7 @@ export const mainNavigation: NavItem[] = [
       { key: 'barangays', label: 'Barangays', href: '/government/barangays' },
       { key: 'statistics', label: 'Statistics', href: '/statistics' },
       { key: 'transparency', label: 'Transparency', href: '/transparency' },
+      { key: 'budget', label: 'Budget', href: '/budget' },
     ],
   },
   {

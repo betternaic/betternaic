@@ -16,7 +16,7 @@ export const SITE = {
   apiUrl: (env.VITE_API_URL || '').replace(/\/$/, ''),
   turnstileSiteKey: env.VITE_TURNSTILE_SITE_KEY || '',
   directory: 'https://lgu.bettergov.ph',
-  version: '0.2.0',
+  version: '0.3.0',
 } as const;
 
 export const nf = new Intl.NumberFormat('en-PH');

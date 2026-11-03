@@ -49,6 +49,15 @@ export default function Transparency() {
       />
       <section className="bg-white py-10">
         <div className="container mx-auto px-4">
+          <div className="mb-10 rounded-lg border-2 border-primary-500 p-6">
+            <h2 className="text-xl font-bold text-gray-900">{t('transparency.budgetTitle', 'Naic in the national budget')}</h2>
+            <p className="mt-2 max-w-3xl text-gray-800">
+              {t('transparency.budgetText', 'Every 2027 project for Naic and its DPWH office in the NEP and the House bill, and the enacted budgets of 2020 to 2026, each figure with the page of the document it is on. From the BetterGov.ph Budget API.')}
+            </p>
+            <Link to="/budget" className="mt-4 inline-block rounded-md bg-primary-500 px-4 py-2 font-semibold text-white hover:bg-primary-600">
+              {t('transparency.budgetLink', 'See the budget projects')}
+            </Link>
+          </div>
           <h2 className="mb-4 text-xl font-bold text-gray-900">{t('transparency.where', 'Where the documents are')}</h2>
           <ul className="grid gap-4 md:grid-cols-2">
             {RESOURCES.map(r => (

@@ -15,6 +15,11 @@ const Offices = lazy(() => import('./pages/Government').then(m => ({ default: m.
 const Barangays = lazy(() => import('./pages/Government').then(m => ({ default: m.Barangays })));
 const Statistics = lazy(() => import('./pages/Statistics'));
 const Transparency = lazy(() => import('./pages/Transparency'));
+const BudgetLayout = lazy(() => import('./pages/budget/Layout'));
+const BudgetProjects = lazy(() => import('./pages/budget/Projects'));
+const BudgetEnacted = lazy(() => import('./pages/budget/Enacted'));
+const BudgetProject = lazy(() => import('./pages/budget/Project'));
+const BudgetAbout = lazy(() => import('./pages/budget/About'));
 const Tourism = lazy(() => import('./pages/Tourism'));
 const About = lazy(() => import('./pages/About'));
 const Emergency = lazy(() => import('./pages/Emergency'));
@@ -44,6 +49,12 @@ export default function App() {
                 <Route path="/government/barangays" element={<Barangays />} />
                 <Route path="/statistics" element={<Statistics />} />
                 <Route path="/transparency" element={<Transparency />} />
+                <Route path="/budget" element={<BudgetLayout />}>
+                  <Route index element={<BudgetProjects />} />
+                  <Route path="enacted" element={<BudgetEnacted />} />
+                  <Route path="about" element={<BudgetAbout />} />
+                  <Route path="projects/:dataset/:id" element={<BudgetProject />} />
+                </Route>
                 <Route path="/tourism" element={<Tourism />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/emergency" element={<Emergency />} />

@@ -24,6 +24,10 @@ A volunteer-run, open-source community portal for **Naic, Cavite**, part of the
   short history (Casa Hacienda de Naic, the 1897 Naic Military Agreement).
 - **Transparency:** where Naic's budget, audit reports and procurement records
   are published, and how to request public documents.
+- **Budget (`/budget`):** every FY 2027 project for Naic and its DPWH office
+  (Cavite 2nd DEO) in the NEP and the House bill, the enacted budgets of
+  2020–2026, and the source page of each figure, read live from the
+  [BetterGov.ph Budget API](https://budget.bettergov.ph/docs).
 - **Report a concern:** a protected form for corrections and local issues,
   reviewed by volunteer moderators.
 - **Announcements:** advisories that moderators post from `/admin`, shown on the
@@ -39,6 +43,9 @@ the office itself. A wrong number is worse than none.
 - The [Local Government Website Starter Kit](https://github.com/iyanski/betterlocalgov)
   (CC0), the template recommended by the BetterGov.ph LGU Directory, set up with
   its `npm run setup` tool.
+- The [BetterGov.ph Transparency Portal](https://github.com/bettergovph/transparency-portal)
+  (MIT, © 2026 BetterGov.ph): the budget pages in `src/budget/` and
+  `src/pages/budget/` are adapted from it; its licence is in `src/budget/LICENSE`.
 - Ideas from [BetterIndang](https://betterindang.org), the portal of a neighboring
   Cavite town, and other better*.org portals in the directory.
 - Content repurposed and fact-checked from public sources. Each page names its
